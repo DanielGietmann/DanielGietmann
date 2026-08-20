@@ -28,6 +28,7 @@ something standard software does not cover.
 | [`@danielgtmn/umami-react`](https://www.npmjs.com/package/@danielgtmn/umami-react) | React bindings for Umami Analytics — hooks, event tracking, zero dependencies | ~2,200 |
 | [`@danielgtmn/react-cookiebot`](https://www.npmjs.com/package/@danielgtmn/react-cookiebot) | Cookiebot consent for React, configured from env | ~20 |
 | [`@danielgtmn/finom-api-client`](https://www.npmjs.com/package/@danielgtmn/finom-api-client) | Typed Node client for the Finom API — invoicing, webhooks, sandbox mode | ~15 |
+| [`@danielgtmn/react-star-rating`](https://www.npmjs.com/package/@danielgtmn/react-star-rating) | Accessible star rating for React — half stars, keyboard, screen readers | ~20 |
 
 Plus a handful of things that are useful without being packages:
 [`docker-pg-backup`](https://github.com/danielgtmn/docker-pg-backup) (PostgreSQL
