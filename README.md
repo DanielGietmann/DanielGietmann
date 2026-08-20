@@ -1,9 +1,11 @@
-# Daniel Gietmann
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+  <img src="assets/banner-light.png" width="880"
+       alt="Daniel Gietmann — software engineer in Bonn. TypeScript, Go, Swift, C#. Currently: @danielgtmn/umami-react at 2.2k installs a month, BillBiter and Pombee in build, VAULO at Wemogy as the day job.">
+</picture>
 
-Software engineer in Bonn. Mostly TypeScript, Go and Swift, with a fair amount
-of C# on the side. Before software I spent six years in emergency services,
-which is where I learned that the interesting part of a system is how it
-behaves at 3am.
+Before software I spent six years in emergency services, which is where I
+learned that the interesting part of a system is how it behaves at 3am.
 
 Client work runs through my company, **[Gietmanic](https://gietmanic.com)**.
 Everything else — side projects, open source, writing — lives at

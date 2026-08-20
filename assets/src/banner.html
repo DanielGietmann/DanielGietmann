@@ -1,0 +1,58 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:"Plex";src:url("ibm-plex-mono-400.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Plex";src:url("ibm-plex-mono-500.woff2") format("woff2");font-weight:500}
+@font-face{font-family:"Hanken";src:url("hanken-grotesk-variable.woff2") format("woff2");font-weight:300 900}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:880px}
+
+.card{
+  width:880px; padding:44px 48px 40px;
+  font-family:"Plex",monospace;
+  position:relative; overflow:hidden;
+}
+/* light */
+.light{ background:#ecefea; --ink:#161a16; --soft:#4d534c; --faint:#6f756d;
+        --rule:#d6dbd2; --live:#256b41; --wip:#855619; --idle:#8b918a }
+/* dark  */
+.dark { background:#131613; --ink:#e7ebe4; --soft:#a4aba1; --faint:#757b73;
+        --rule:#292e27; --live:#55b47b; --wip:#c9974f; --idle:#6c726a }
+
+.name{ font-weight:500; font-size:38px; letter-spacing:-.035em; color:var(--ink); line-height:1 }
+.role{ font-family:"Hanken",sans-serif; font-size:15px; color:var(--soft); margin-top:10px; letter-spacing:.01em }
+
+.rule{ height:1px; background:var(--rule); margin:26px 0 20px }
+
+.board{ display:grid; grid-template-columns:auto 1fr auto; gap:9px 16px; align-items:baseline }
+.lamp{ width:7px; height:7px; border-radius:99px; align-self:center }
+.l-live{ background:var(--live); box-shadow:0 0 0 3.5px color-mix(in srgb,var(--live) 20%,transparent) }
+.l-wip { background:var(--wip) }
+.l-idle{ background:var(--idle) }
+.what{ font-size:13.5px; color:var(--ink); letter-spacing:-.01em }
+.meta{ font-size:12px; color:var(--faint); text-align:right; font-variant-numeric:tabular-nums }
+.dim { color:var(--faint) }
+
+.foot{ margin-top:24px; font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--faint) }
+</style>
+
+<div class="card light" id="light">
+  <div class="name">daniel gietmann</div>
+  <div class="role">Software engineer in Bonn — TypeScript, Go, Swift, C#</div>
+  <div class="rule"></div>
+  <div class="board">
+    <span class="lamp l-live"></span>
+    <span class="what">@danielgtmn/umami-react <span class="dim">— React bindings for Umami</span></span>
+    <span class="meta">2.2k installs / month</span>
+
+    <span class="lamp l-wip"></span>
+    <span class="what">BillBiter <span class="dim">· Pombee — on-device iOS apps</span></span>
+    <span class="meta">building</span>
+
+    <span class="lamp l-idle"></span>
+    <span class="what">VAULO <span class="dim">at Wemogy — .NET 8 · React · Azure</span></span>
+    <span class="meta">day job</span>
+  </div>
+  <div class="foot">danielgtmn.com &nbsp;·&nbsp; gietmanic.com</div>
+</div>
