@@ -1,91 +1,54 @@
-<div align="center">
+# Daniel Gietmann
 
-# 👋 Hi, I'm Daniel Gietmann
+Software engineer in Bonn. Mostly TypeScript, Go and Swift, with a fair amount
+of C# on the side. Before software I spent six years in emergency services,
+which is where I learned that the interesting part of a system is how it
+behaves at 3am.
 
-**Full-Stack Developer | React & Vite Enthusiast | Cloud Architecture**
+Client work runs through my company, **[Gietmanic](https://gietmanic.com)**.
+Everything else — side projects, open source, writing — lives at
+**[danielgtmn.com](https://danielgtmn.com)**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/danielgtmn)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://danielgtmn.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+## Currently
 
-</div>
+**[VAULO](https://vaulo.com)** at **[Wemogy](https://wemogy.com)** — a digital
+asset management system. A .NET 8 backend of roughly fifty projects behind a
+React frontend, running since 2021. The largest thing I work on, and the one I
+did not build alone.
 
----
+Alongside that, under Gietmanic: iOS apps, and web work for clients who need
+something standard software does not cover.
 
-## 🚀 About Me
+## Published
 
-- 🔭 Currently working on **Link Shortener Project**
-- 🌱 Learning **Docker** and cloud containerization
-- 👯 Open to collaborate on **React Vite** and **Node.js** projects
-- 💬 Ask me about **React**, **Vite**, **Hono**, and **modern web development**
-- ⚡ Fun fact: I love building fast, scalable web applications
+| Package | What it does | Downloads / month |
+|---|---|---|
+| [`@danielgtmn/umami-react`](https://www.npmjs.com/package/@danielgtmn/umami-react) | React bindings for Umami Analytics — hooks, event tracking, zero dependencies | ~2,200 |
+| [`@danielgtmn/react-cookiebot`](https://www.npmjs.com/package/@danielgtmn/react-cookiebot) | Cookiebot consent for React, configured from env | ~20 |
+| [`@danielgtmn/finom-api-client`](https://www.npmjs.com/package/@danielgtmn/finom-api-client) | Typed Node client for the Finom API — invoicing, webhooks, sandbox mode | ~15 |
 
-## 🛠️ Tech Stack
+Plus a handful of things that are useful without being packages:
+[`docker-pg-backup`](https://github.com/danielgtmn/docker-pg-backup) (PostgreSQL
+backups to S3 with a REST API),
+[`go-redirect`](https://github.com/danielgtmn/go-redirect) (a 5 MB redirect
+container — it is what serves gietmanic.de),
+[`docker-cleanup`](https://github.com/danielgtmn/docker-cleanup) (tag retention
+for OCI registries), and
+[`domain-mcp`](https://github.com/danielgtmn/domain-mcp) (domain availability
+over MCP, RDAP first with a WHOIS fallback).
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+## What I actually work with
 
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
-![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white)
+**Languages** — TypeScript, Go, Swift, C#, Python
 
-### Database & Tools
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PNPM](https://img.shields.io/badge/PNPM-F69220?style=flat-square&logo=pnpm&logoColor=white)
+**Frontend** — React, Next.js, Astro, Tailwind
 
-### Cloud & Deployment
-![Hetzner](https://img.shields.io/badge/Hetzner-D50C2D?style=flat-square&logo=hetzner&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D0?style=flat-square&logo=microsoft-azure&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=Cloudflare&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+**Backend** — .NET, NestJS, Node, PostgreSQL, Cosmos DB, Azure Service Bus
 
-## 📊 GitHub Analytics
+**Infrastructure** — Docker, Terraform, Azure, Hetzner, Cloudflare
 
-<div align="center">
+## Elsewhere
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=danielgtmn&theme=dark)](https://git.io/streak-stats)
-
-</div>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=danielgtmn&theme=tokyonight&no-frame=true&row=1&column=6)
-
-</div>
-
-## 📈 Contribution Graph
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=danielgtmn&theme=tokyo-night&hide_border=true)
-
-## 🤝 Let's Connect
-
-I'm always interested in collaborating on exciting projects and learning from fellow developers. Feel free to reach out!
-
-- 💼 **LinkedIn**: [Daniel Gietmann](https://linkedin.com/in/danielgtmn)
-- 📧 **Email**: [hello@danielgtmn.com](mailto:danielgtmn.com)
-- 🌐 **Portfolio**: [danielgtmn.com](https://danielgtmn.com)
-
-## ☕ Support My Work
-
-If you find my projects helpful, consider buying me a coffee!
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/danielgtmn)
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=danielgtmn&color=blueviolet&style=flat-square&label=Profile+Views)
-
-**Thanks for visiting! ⭐ Star some repositories if you find them interesting!**
-
-</div>
+- **Email** — [hello@gietmanic.com](mailto:hello@gietmanic.com)
+- **Site** — [danielgtmn.com](https://danielgtmn.com)
+- **LinkedIn** — [danielgtmn](https://linkedin.com/in/danielgtmn)
